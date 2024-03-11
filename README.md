@@ -37,3 +37,4 @@ Embark on an exploration of the cutting-edge realm of Edge Intelligence with (X)
 **X_EPD**: this notebook is similar to the X_TOF, where the analysis is conducted on electronics parts Imaging dataset (EPD). The dataset https://zenodo.org/records/6053169](https://github.com/praneelchand10/Electronics-Parts-Dataset.git  is composed of a total of 1734 images. Each class (capacitor, potentiometer, and regulator) had 578 images. The resolution of the camera is 30X30 pixels.
 
 **X_SFD**: this notebook is similar to the X_TOF, where the analysis is conducted on Thermal Sign Language Imaging dataset (SFD). The dataset https://zenodo.org/records/6053169  contains low resolution thermal images corresponding to various sign language digits represented by hand and captured using the Omron D6T thermal camera. The resolution of the camera is 32X32 pixels.
+Note: In X_SFD MobileNet is implemented since it`s support 32 by 32 images.
