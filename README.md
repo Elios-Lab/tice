@@ -1,5 +1,5 @@
 # X
-Embark on an exploration of the cutting-edge realm of Edge Intelligence with (X), an all-encompassing Deep Learning Notebook repository meticulously crafted for effortless implementation. Delve into three pivotal Jupyter Notebooks:
+Embark on an exploration of the cutting-edge realm of Edge Intelligence with (X), an all-encompassing Deep Learning Notebook repository meticulously crafted for effortless implementation. Delve into five pivotal Jupyter Notebooks:
 
 **X_Template**: The X Notebook consists of sections for deep learning for edge intelligences. The sections are as follows: Download Dataset, NN models, Linear Classifier, fully connected NN (MLP), CNN, Deeper CNN, tensorFlow Lite model, Post-training quantization, quantization aware training, and benchmark models with STM tools and boards.
 
@@ -33,5 +33,7 @@ Embark on an exploration of the cutting-edge realm of Edge Intelligence with (X)
       * Deploys the best models onto chosen boards, presenting comprehensive responses including ROM size, RAM size, weights size, and execution time.
     
 **X_TOF**: Unleash the power of (X) with the X_TOF notebook, where the Time of Flight (TOF) dataset https://www.dropbox.com/s/4txj0ob6ovy9jbr/time-of-flight.zip?dl=1 takes center stage. This range imaging camera system measures distances based on time-of-flight, utilizing laser or LED signals. The notebook meticulously follows the X_Template steps—starting with dataset download, preparation, and preprocessing for training. A comprehensive hyperparameter study is conducted for each model, selecting the top three for further exploration. The notebook then transforms the best models into TFLite and performs quantization with various policies (Dynamic, Static, and Quantization aware training). Lastly, it installs STM libraries, selects STM boards, and analyzes the models on the chosen boards, providing insightful metrics on RAM, ROM, weights size, and Execution Time.
+
+**X_EPD**: this notebook is similar to the X_TOF, where the analysis is conducted on electronics parts Imaging dataset (EPD). The dataset https://zenodo.org/records/6053169](https://github.com/praneelchand10/Electronics-Parts-Dataset.git  is composed of a total of 1734 images. Each class (capacitor, potentiometer, and regulator) had 578 images. The resolution of the camera is 30X30 pixels.
 
 **X_SFD**: this notebook is similar to the X_TOF, where the analysis is conducted on Thermal Sign Language Imaging dataset (SFD). The dataset https://zenodo.org/records/6053169  contains low resolution thermal images corresponding to various sign language digits represented by hand and captured using the Omron D6T thermal camera. The resolution of the camera is 32X32 pixels.
