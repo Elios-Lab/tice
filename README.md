@@ -67,4 +67,5 @@ Note: In X_SFD MobileNet is also implemented since it supports 32x32 images.
 
 ## Publication
 This work has been published in [IEEE Open Journal of the Industrial Electronics Society](https://doi.org/10.1109/OJIES.2024.3451959).
+
 Please cite the paper if you use this code.
