@@ -64,3 +64,7 @@ Embark on an exploration of the cutting-edge realm of Edge Intelligence with TIC
 
 **SFD**: In this notebook, the analysis is conducted on the [Sign Finger Digits (SFD) dataset](https://zenodo.org/records/6053169). The dataset contains low resolution thermal images corresponding to various sign language digits represented by hand and captured using the Omron D6T thermal camera. The resolution of the camera is 32x32 pixels.
 Note: In X_SFD MobileNet is also implemented since it supports 32x32 images.
+
+## Publication
+This work has been published in [IEEE Open Journal of the Industrial Electronics Society](https://doi.org/10.1109/OJIES.2024.3451959).
+Please cite the paper if you use this code.
